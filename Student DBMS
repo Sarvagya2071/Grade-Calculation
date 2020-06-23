@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<iostream>
+using namespace std;
+struct student
+{
+char name[25];
+int registration;
+};
+int main()
+{
+struct student s1,s2;
+cout<<"\n enter student1 name : ";
+cin>>s1.name;
+cout<<"\n enter registration number :";
+cin>>s1.registration;
+cout<<"\n enter student2 name : ";
+cin>>s2.name;
+cout<<"\n enter registration number :";
+cin>>s2.registration;
+
+cout<<"\n students1 name: "<<s1.name;
+cout<<"\n registration number"<<s1.registration;
+
+cout<<"\n students2 name: "<<s2.name;
+cout<<"\n registration number"<<s2.registration;
+
+return 0;
+}
